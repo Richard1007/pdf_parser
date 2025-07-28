@@ -1,0 +1,91 @@
+```json
+{
+  "title": "SECTION 22 08 00 - COMMISSIONING OF PLUMBING",
+  "release": "09/2024",
+  "parts": [
+    {
+      "part": 1,
+      "title": "GENERAL",
+      "sections": [
+        {
+          "section": "1.1",
+          "title": "SECTION INCLUDES",
+          "points": [
+            {"point": "A", "description": "Description"},
+            {"point": "B", "description": "Responsibilities"},
+            {"point": "C", "description": "Related Work"},
+            {"point": "D", "description": "Test Equipment"}
+          ]
+        },
+        {
+          "section": "1.2",
+          "title": "DESCRIPTION",
+          "points": [
+            {"point": "A", "description": "The purpose of this section is to specify Division 22 responsibilities in the commissioning process."},
+            {"point": "B", "description": "The systems to be commissioned are listed in Section 01 91 00."},
+            {"point": "C", "description": "Commissioning requires the participation of the Division 22 Contractor to ensure that all systems are operating in a manner consistent with the Contract Documents. The general commissioning requirements and coordination are detailed in Section 01 91 00. Division 22 Contractor shall be familiar with all parts of Section 01 91 00 and shall execute all commissioning responsibilities assigned to them in the Contract Documents."}
+          ]
+        },
+        {
+          "section": "1.3",
+          "title": "RESPONSIBILITIES",
+          "points": [
+            {"point": "A", "description": "Refer to Section 01 91 00."}
+          ]
+        },
+        {
+          "section": "1.4",
+          "title": "RELATED WORK",
+          "points": [
+            {"point": "A", "description": "Specific commissioning requirements are given in the following sections of these specifications. All the following sections apply to the Work of this section.",
+             "sub_points": [
+               {"sub_point": "1", "description": "Section 01 78 23 - Operations and Maintenance"},
+               {"sub_point": "2", "description": "Section 01 79 00 - Demonstration and Training"},
+               {"sub_point": "3", "description": "Section 01 91 00 - Commissioning"},
+               {"sub_point": "4", "description": "Section 21 08 00 - Commissioning of Fire Suppression"},
+               {"sub_point": "5", "description": "Section 23 08 00 - Commissioning of HVAC"},
+               {"sub_point": "6", "description": "Section 26 08 00 - Commissioning of Electrical"},
+               {"sub_point": "7", "description": "Section 27 08 00 - Commissioning of Communications"},
+               {"sub_point": "8", "description": "Section 28 08 00 - Commissioning of Electronic Safety and Security"},
+               {"sub_point": "9", "description": "Section [XX XX XX]"}
+             ]}
+          ]
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "PRODUCTS",
+      "sections": [
+        {
+          "section": "2.1",
+          "title": "TEST EQUIPMENT",
+          "points": [
+            {"point": "A", "description": "The Contractor shall provide all test equipment necessary to fulfill the testing requirements of this Division. This equipment includes, but is not limited to, the following:",
+             "sub_points": [
+               {"sub_point": "1", "description": "Handheld temperature and relative humidity meter."},
+               {"sub_point": "2", "description": "Infrared thermometer gun."},
+               {"sub_point": "3", "description": "Analog differential pressure gauge and associated tubing."},
+               {"sub_point": "4", "description": "Portable computer with access to the building automation system."}
+             ]},
+            {"point": "B", "description": "All testing equipment shall be of sufficient quality and accuracy to test and/or measure system performance with the tolerances specified in the related specifications. If not otherwise noted, the following minimum requirements apply:",
+             "sub_points": [
+               {"sub_point": "1", "description": "Temperature sensors and digital thermometers shall have a certified calibration within the past year to an accuracy of 0.5°F and a resolution of +/- 0.1°F."},
+               {"sub_point": "2", "description": "Pressure sensors shall have an accuracy of +/- 2.0% of the value range being measured (not full range of meter) and have been calibrated within the last year."},
+               {"sub_point": "3", "description": "All equipment shall be calibrated according to the manufacturer's recommended intervals and when dropped or damaged. Calibration tags shall be affixed or certificates readily available."}
+             ]},
+            {"point": "C", "description": "Refer to Section 01 91 00 for additional Division 22 requirements."}
+          ]
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "EXECUTION",
+      "points": [
+        {"point": "A", "description": "Refer to Section 01 91 00."}
+      ]
+    }
+  ]
+}
+```
