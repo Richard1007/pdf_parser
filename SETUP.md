@@ -61,6 +61,14 @@ npm run dev
 
 Upload a PDF, select a model, and view structured JSON.
 
+### ⚡ Model Selection Recommendation
+
+**⚠️ Important:** Gemini 2.5 Pro is too slow for longer texts. **We recommend using Gemini 2.5 Flash** for better performance and faster processing times, especially for larger PDF files.
+
+- **Gemini 2.5 Flash** (Recommended): Fast processing with good accuracy
+- **Gemini 2.5 Pro**: Highest accuracy but could be slow for long documents
+- **Gemini 2.0 Flash Lite**: Cost-effective for simple documents
+
 ---
 
 ## 📁 Results
