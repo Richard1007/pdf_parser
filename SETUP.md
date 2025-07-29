@@ -85,8 +85,6 @@ documents/results/
 └── 271500 (Medium).json
 ```
 
-Each JSON file contains the structured extraction with hierarchical sections, preserved numbering, and nested children. You can use these as reference examples to understand the expected output format.
-
 ---
 
 ## 🎨 UI Reference
