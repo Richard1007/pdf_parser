@@ -33,7 +33,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Create environment file with your API key
-echo "GEMINI_API_KEY=your_api_key_here" > .env
+echo GEMINI_API_KEY=your_api_key_here > .env
+
+# ✅ Verify your .env file
+cat .env
+# You should see:
+# GEMINI_API_KEY=your_api_key_here, NOT JUST your_api_key_here
+
 
 # Start backend server with auto-reload
 uvicorn main:app --reload
