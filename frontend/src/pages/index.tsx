@@ -13,7 +13,8 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [models, setModels] = useState<Model[]>([]);
-  const [selectedModel, setSelectedModel] = useState<string>("gemini-2.5-pro");
+  const [selectedModel, setSelectedModel] =
+    useState<string>("gemini-2.5-flash");
   const [loadingModels, setLoadingModels] = useState(true);
 
   // Fetch available models on component mount

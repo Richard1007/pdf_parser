@@ -38,7 +38,7 @@ async def get_models():
 @app.post("/upload")
 async def upload_file(
     pdf: UploadFile = File(...),
-    model: str = Form("gemini-2.5-pro")  # Default to Gemini 2.5 Pro
+    model: str = Form("gemini-2.5-flash")  # Default to Gemini 2.5 Flash
 ):
     if not pdf.filename.lower().endswith('.pdf'):
         return JSONResponse(

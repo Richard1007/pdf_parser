@@ -20,13 +20,13 @@ MODEL_DESCRIPTIONS = {
     GeminiModel.GEMINI_2_0_FLASH_LITE: "Cost effective - Budget-friendly option for simpler documents"
 }
 
-async def parse_pdf_with_gemini(file_content: bytes, model: GeminiModel = GeminiModel.GEMINI_2_5_PRO) -> str:
+async def parse_pdf_with_gemini(file_content: bytes, model: GeminiModel = GeminiModel.GEMINI_2_5_FLASH) -> str:
     """
     Parse PDF using the specified Gemini model
     
     Args:
         file_content: PDF file content as bytes
-        model: Selected Gemini model (defaults to Gemini 2.5 Pro - strongest)
+        model: Selected Gemini model (defaults to Gemini 2.5 Flash - reasoning and speed balance)
     
     Returns:
         Parsed JSON string
@@ -79,7 +79,7 @@ Your job is to extract only the technical specification content starting from "P
 }
 
 📌 Format Rules:
-- Use only text that appears after "PART 1 - GENERAL" in the PDF
+- Use only text that is part of the technical specification. Ignore headers, footers, text on cover pages and other miscellaneous metadata. 
 - Preserve all numbering (e.g. 1.01, A., 1., a.)
 - If a clause contains subclauses, use the `"children"` field (same format), otherwise use `"children": null`
 - If a part (e.g. part2) does not exist in the PDF, return `"part2": { "partItems": [] }`
