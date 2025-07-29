@@ -47,7 +47,7 @@ uvicorn main:app --reload
 
 ### Frontend
 
-# Start a new terminal before running the following commands
+#### Start a new terminal before running the following commands
 
 ```bash
 # Navigate to frontend directory
